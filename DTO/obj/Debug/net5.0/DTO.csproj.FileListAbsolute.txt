@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos\FoodDelivery\DTO\bin\Debug\net5.0\DTO.deps.json
+C:\Users\PC\source\repos\FoodDelivery\DTO\bin\Debug\net5.0\DTO.dll
+C:\Users\PC\source\repos\FoodDelivery\DTO\bin\Debug\net5.0\ref\DTO.dll
+C:\Users\PC\source\repos\FoodDelivery\DTO\bin\Debug\net5.0\DTO.pdb
+C:\Users\PC\source\repos\FoodDelivery\DTO\obj\Debug\net5.0\DTO.csprojAssemblyReference.cache
+C:\Users\PC\source\repos\FoodDelivery\DTO\obj\Debug\net5.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\FoodDelivery\DTO\obj\Debug\net5.0\DTO.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\FoodDelivery\DTO\obj\Debug\net5.0\DTO.AssemblyInfo.cs
+C:\Users\PC\source\repos\FoodDelivery\DTO\obj\Debug\net5.0\DTO.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\FoodDelivery\DTO\obj\Debug\net5.0\DTO.dll
+C:\Users\PC\source\repos\FoodDelivery\DTO\obj\Debug\net5.0\ref\DTO.dll
+C:\Users\PC\source\repos\FoodDelivery\DTO\obj\Debug\net5.0\DTO.pdb
+C:\Users\PC\source\repos\FoodDelivery\DTO\bin\Debug\net5.0\DTO.runtimeconfig.json
+C:\Users\PC\source\repos\FoodDelivery\DTO\bin\Debug\net5.0\DTO.runtimeconfig.dev.json
+C:\Users\PC\source\repos\FoodDelivery\DTO\obj\Debug\net5.0\DTO.genruntimeconfig.cache
