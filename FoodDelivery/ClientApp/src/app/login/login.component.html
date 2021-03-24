@@ -1,0 +1,8 @@
+<div class="bg">
+    <div class="form">
+        <h2>Sign in</h2>
+        <input type="email" pInputText placeholder="Email" pTooltip="Введіть вашу пошту" tooltipPosition="top" [(ngModel)]="model.email" class="log">
+        <p-password class="log" [toggleMask]="true" pTooltip="Введіть ваш пароль" tooltipPosition="top" [(ngModel)]="model.password"></p-password>
+        <button pButton pRipple type="button" (click)="Login()" label="Sign in" class="p-button-help"></button>
+    </div>
+</div>
