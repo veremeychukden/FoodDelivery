@@ -1,18 +1,27 @@
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+.nav{
+  display: grid;
+  grid-template-columns: 2fr 5fr repeat(7, 1fr);
+  width: 100%;
+  z-index: 100;
+  position: absolute;
+  padding: 10px 10%;
+  background: #2b2d42;
 }
 
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.logo-text{
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  align-self: center;
 }
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.item{
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  align-self: center;
+}
+
+img{
+  cursor: pointer;
 }

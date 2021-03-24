@@ -1,11 +1,12 @@
 <div class="bg">
     <div class="form">
-        <input type="email" pInputText placeholder="Email" [(ngModel)]="model.email" name="email" class="reg">
-        <input type="text" pInputText placeholder="Username" [(ngModel)]="model.username" name="username" class="reg">
-        <input type="text" pInputText placeholder="First name" [(ngModel)]="model.firstName" name="firstName" class="reg">
-        <input type="text" pInputText placeholder="Last name" [(ngModel)]="model.lastName" name="lastName" class="reg">
-        <input type="password" pPassword placeholder="Password" [(ngModel)]="model.password" name="password" class="reg"/>
-        <button pButton pRipple type="button" (click)="onSubmit()" label="Register" class="p-button-rounded"></button>
+        <h2>Sign up</h2>
+        <input type="email" pInputText placeholder="Email" pTooltip="Введіть вашу пошту" tooltipPosition="top" [(ngModel)]="model.email" class="reg">
+        <input type="text" pInputText placeholder="Nickname" pTooltip="Введіть ваш нік" tooltipPosition="top" [(ngModel)]="model.username" class="reg">
+        <input type="text" pInputText placeholder="Name" pTooltip="Введіть ваше ім'я" tooltipPosition="top" [(ngModel)]="model.firstName" class="reg">
+        <input type="text" pInputText placeholder="Second name" pTooltip="Введіть ваше прізвище" tooltipPosition="top" [(ngModel)]="model.lastName" class="reg">
+        <p-password class="reg" [toggleMask]="true" pTooltip="Введіть ваш пароль" tooltipPosition="top" [(ngModel)]="model.password"></p-password>
+        <button pButton pRipple type="button" (click)="onSubmit()" label="Confirm" class="p-button-help"></button>
     </div>
 </div>
 

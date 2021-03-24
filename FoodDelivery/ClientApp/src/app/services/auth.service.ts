@@ -7,13 +7,16 @@ import { RegisterResponseModel } from '../models/register-response.model';
 import { RegisterModel } from '../models/register.model';
 import jwt_decode from 'jwt-decode';
 import { UserModel } from '../models/user.model';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AuthService {
 
-  constructor(private http: HttpClient) { }
+  isAuthenticated$ = new BehaviorSubject<boolean>(false);
+
+  constructor(private http: HttpClient){}
 
   baseUrl: string = '/api/user';
 
@@ -24,6 +27,7 @@ export class AuthService {
 
   Login(model: LoginModel): Observable<LoginResponseModel>{
     return this.http.post<LoginResponseModel>(this.baseUrl + '/login', model);
+    this.isAuthenticated$.next(true);
   }
 
   isLoggedIn(){
@@ -75,6 +79,11 @@ export class AuthService {
       }
       return false;
     }
+  }
+
+  Logout(){
+    localStorage.removeItem('token');
+    this.isAuthenticated$.next(false);
   }
 
 }

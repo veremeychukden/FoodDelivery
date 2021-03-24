@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap');
 body,html{
   margin: 0 !important;
   padding: 0 !important;
-  font-family: 'Syne Mono', monospace;
+  font-family: 'Farro', sans-serif;
+  background: url('assets/home.jpg') center no-repeat;
 }

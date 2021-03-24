@@ -1,16 +1,16 @@
 .bg{
     min-height: 100vh;
-    background: url('../../assets/register.jpg') center;
+    background: url('./../../assets/register.jpg') center;
     padding-top: 25vh;
     padding-bottom: 25vh;
+    width: 100vw;
 }
 
 .form{
     height: 50vh;
-    background: -webkit-linear-gradient(left, #7579ff, #b224ef) !important; 
-    opacity: 85%;
-    width: 30%;
-    padding-top: 100px;
+    padding-top: 50px;
+    background: linear-gradient(#d9a7c7cb, #fffcdcd2);
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
@@ -20,17 +20,17 @@
     text-align: center;
 }
 
-.form:hover{
-    background: -webkit-linear-gradient(left, #b224ef,#7579ff) !important; 
-
-}
 
 .reg{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 30px;
+    width: 46%;
+    height: 40px;
     margin-top: 20px;
     border-radius: 5px;
+}
+
+button{
+    margin-top: 15px;
 }
